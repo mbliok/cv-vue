@@ -1,16 +1,17 @@
 [
   {
-    "FullName": "Mario Berberyan",
-    "Email": "mberberyan@melontech.com",
-    "DateCreated": "2017-01-01T00:00:00.000Z",
-    "DateLastModified": "2017-01-01T00:00:00.000Z",
+    "ProjectName": "A title",
+    "ProjectDescription": "A text",
     "id": 1
   },
   {
-    "FullName": "Maya Bliok",
-    "Email": "mbliok@melontech.com",
-    "DateCreated": "2017-04-19T16:40:22.016Z",
-    "DateLastModified": null,
+    "ProjectName": "B title",
+    "ProjectDescription": "B text",
     "id": 2
+  },
+{
+    "ProjectName": "C title",
+    "ProjectDescription": "C text",
+    "id": 3
   }
 ]

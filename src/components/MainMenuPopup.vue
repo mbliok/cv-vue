@@ -14,13 +14,7 @@
         <div class="recent-work panel-fade animated fadeIn">
           <div class="list">
           <h4>Recent Work</h4>
-        
-          <ul>
-             <li v-for="project in postData">
-              <p> {{project.id}}</p>
-              <router-link v-bind:to="'/works/' + project.id">view</router-link>
-              </li>
-          </ul>
+          <list></list>
           </div>
         </div>
      
@@ -32,16 +26,16 @@
 </template>
 
 <script>
-  import postData from './data.json';
-// import {jsonData}  from './../config'
-// import { apiAccountsDomain } from './../config'
+  //import postData from './data.json';
+  import List from './list';
+
 export default {
   name: 'mainmenupopup',
 
   data () {
     return {
-      postData: postData,
-      projects: []
+     // postData: postData,
+      projects: ''
     }
   },
   methods: {
@@ -49,6 +43,9 @@ export default {
   },
   created: function() {
   
+  },
+  components:{
+      List
   }
 }
 </script>

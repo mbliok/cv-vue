@@ -1,35 +1,37 @@
 <template>
   <div class="works">
-    My works component
-   
-  <list></list>
+    My works component inject list projects
 
- 
+    <list></list>
+    
+
   </div>
 </template>
 
 <script>
-import postData from './data.json';
-import List from './list';
+  //import postData from './data.json';
+  import List from './list';
+  //import { apiData } from './../config'
 
-export default {
-  name: 'works',
-  data () {
-    return {
-       postData: postData,
-       projects: []
-    }
-  },
-  methods: {
+
+  export default {
+    name: 'works',
+    data() {
+      return {
+       
+      }
+    },
+    methods: {
     
-  },
-   created: function() {
+    },
+    created: function() {
      
     },
-    components:{
+    components: {
       List
+    }
   }
-}
+
 </script>
 
 
