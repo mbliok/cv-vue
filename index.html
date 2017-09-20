@@ -9,9 +9,21 @@
   <body>
     <div id="app"></div>
     <!-- built files will be auto injected -->
-    <script
-  src="http://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
+  
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyB8ryOnSZvm6lmOAdyrZOTrbW7WKckEJRo",
+    authDomain: "test-api-project-b4901.firebaseapp.com",
+    databaseURL: "https://test-api-project-b4901.firebaseio.com",
+    projectId: "test-api-project-b4901",
+    storageBucket: "test-api-project-b4901.appspot.com",
+    messagingSenderId: "984839916069"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<script src="api.js"></script>
   </body>
 </html>

@@ -1,17 +1,19 @@
-[
-  {
-    "ProjectName": "A title",
-    "ProjectDescription": "A text",
-    "id": 1
-  },
-  {
-    "ProjectName": "B title",
-    "ProjectDescription": "B text",
-    "id": 2
-  },
 {
-    "ProjectName": "C title",
-    "ProjectDescription": "C text",
-    "id": 3
-  }
-]
+  "projects": [
+    {
+      "id": 1,
+      "title": "title 1",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": " title 2",
+      "author": "typicode2"
+    },
+    {
+      "id": 3,
+      "title": " title 3",
+      "author": "typicode2"
+    }
+  ]
+}

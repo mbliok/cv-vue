@@ -8,7 +8,8 @@
 </template>
 
 <script>
-//import postData from './data.json';
+import jsonServiceData from './data.json';
+
 import List from './list';
 export default {
   name: 'ProjectDetail',
@@ -19,7 +20,7 @@ export default {
   },
   methods: {
     getDataId(id) {
-        this.$http.get('http://demo7289633.mockable.io/'+this.id,
+        this.$http.get(jsonServiceData+id,
           {
             headers: {
               'Content-Type': 'application/json'
